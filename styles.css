@@ -1,9 +1,31 @@
 body {
-    background:blue;
+    background: #87cefa;;
     font-family:Arial;
+}
+
+.assignment {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: lightgray;
+}
+
+.assignment img {
+    width:200px;
+    margin:10px;
+    border: 4px dashed #b0c4de;
 }
 
 h1 {
     color:aliceblue;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #b0c4de;
+}
+
+a:hover{
+    color: #fff;
 }

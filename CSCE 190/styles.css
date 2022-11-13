@@ -1,0 +1,38 @@
+body {
+    background: #87cefa;;
+    font-family:Arial;
+}
+
+.assignments {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 22%;
+    padding: 20px 10px;
+    margin: 10px;
+    background: lightgray;
+}
+
+.assignment img {
+    width:200px;
+    margin:10px;
+    border: 4px dashed #b0c4de;
+    display:block;
+    margin: auto;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #b0c4de;
+}
+
+a:hover{
+    color: #fff;
+}

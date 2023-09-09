@@ -6,22 +6,53 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: aliceblue;
+.assignments {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 22%;
+    padding: 20px 10px;
+    margin: 10px;
+    background: lightgray;
+    flex: 1;
+}
+
+.assignment img {
+    width:300px;
+    margin:10px;
+    border: 4px dashed blue;
+    display:block;
+    margin: auto;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
     text-align: center;
 }
 
-h2{
-    color: aliceblue;
-    
-}
-
-a{
+a {
     text-decoration: none;
-    color: aliceblue;
-}
-
-a:hover{
     color: black;
 }
 
+a:hover{
+    color: #fff;
+}
+
+@media only screen and (max-width: 900px){
+
+    .assignment{
+        flex: 1;
+    }
+    .assignments{
+        text-align: center;
+        display: inline-block;
+        flex: 1;
+    }
+}

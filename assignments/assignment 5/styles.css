@@ -1,0 +1,179 @@
+/* Structure */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-header{
+    margin: auto;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+#main-header a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#main-header a:hover{
+    color: #73000A;
+}
+
+#main-header li{
+    list-style-type: none;
+    flex: 1;
+    font-size: 10px;
+}
+
+h1{
+    padding-left: 20pc;
+}
+
+h2{
+    background:  #73000A;
+    color: white;
+    padding-left: 20pc;
+    font-size: 50px;
+}
+
+#main-content p{
+    text-align: center;
+    flex: auto;
+    font-size: 30px;
+}
+
+#main-nav{
+    background-color: #73000A;
+}
+
+#main-nav li{
+    font-size: 20px;
+}
+
+#main-nav li a:hover{
+    color: black;
+}
+
+.col1of4 h3{
+    text-align: center;
+    color: white;
+}
+
+.col1of4{
+    background-color: black;
+}
+
+.col1of4 p{
+    color: white;
+}
+
+.col1of2 h3{
+    text-align: center;
+    color: white;
+}
+
+.col1of2{
+    background-color: #73000A;
+}
+
+.col1of2 p{
+    color: white;
+}
+
+.col2of4 img{
+    padding-left: 20pc;
+}
+
+.col2of4 h3{
+    text-align: left;
+    font-size: 40px;
+    color: #73000A;
+}
+
+.col2of4 p{
+    padding-right: 20pc;
+}
+
+.col2of4{
+    background-color: #ECECEC;
+}
+
+h3{
+    color: #73000A;
+    font-size: 50px;
+    text-align: center;
+}
+
+.col3of4 h3{
+    font-size: 10px;
+    text-align: center;
+}
+
+.col3of4 p{
+    font-size: 10px;
+}
+
+.col4of4{
+    background-color: #73000A;
+}
+
+.col4of4 h3{
+    color: white;
+}
+
+.col4of4 p{
+    color: white;
+}
+
+.col5of5{
+    background-color: #1F414D;
+}
+
+.col5of5 h3{
+    color: white;
+}
+
+.col5of5 p{
+    color: white;
+}
+
+#main-footer li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#main-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-footer a:hover{
+    color: #73000A;
+}
+@media only screen and (min-width: 768px){
+    .horizontal-nav ul, 
+    .flex-container{
+        display: flex;
+    }
+
+    #main-nav ul{
+        justify-content: center;
+    }
+
+    .flex-container {
+        justify-content: space-between;
+    }
+
+    .col1of2, 
+    .col1of3, 
+    .col1of4{
+        flex: 1;
+    }
+
+    .col2of3, 
+    .col2of4{
+        flex: 2;
+    }
+}

@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: #FFEBCD;
+}
+
+#main-content{
+    background-color: #6495ED;
+}
+
+#main-footer{
+    background-color: #FFEBCD;
+    padding: 10px;
+    text-align: center;
+}
+
+.col1of2{
+    background-color: #F0FFFF;
+
+}
+.col1of2 {
+    flex: 1;
+    text-align: center;
+}
+
+#square{
+    background-color: cornflowerblue;
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    
+}
+
+.move-square{
+    position: relative;
+    animation-name: anim-square;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes anim-square{
+    0%{
+        background-color: gold;
+        top: 0px;
+        opacity: 1;
+
+    }
+    10%{
+        background-color: purple;
+        top: 100px;
+        opacity: 0;
+    }
+    20%{
+        background-color: white;
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){ 
+    .flex-container{
+        display: flex;
+    }
+}

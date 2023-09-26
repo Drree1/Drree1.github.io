@@ -1,18 +1,13 @@
 const showexercise1 = () => {
     document.getElementById("exercise1").classList.remove("hide");
-}
-
-const hideexercise1 = () => {
-    document.getElementById("exercise1").classList.add("hide");
+    document.getElementById("exercise2").classList.add("hide");
 }
 
 const showexercise2 = () => {
     document.getElementById("exercise2").classList.remove("hide");
+    document.getElementById("exercise1").classList.add("hide");
 }
 
-const hideexercise2 = () => {
-    document.getElementById("exercise2").classList.add("hide");
-}
 
 const exerciseOne = () => {
     const firstName1 = document.getElementById("txt-first-name").value;
@@ -65,8 +60,8 @@ const excerciseTwo = () => {
 
 window.onload = () => {
     //get button, tie function to clickage
-    document.getElementById("show-exercise1").onclick = hideexercise2;
-    document.getElementById("show-exercise2").onclick = hideexercise1;
+   // document.getElementById("show-exercise1").onclick = hideexercise2;
+   // document.getElementById("show-exercise2").onclick = hideexercise1;
     document.getElementById("show-exercise1").onclick = showexercise1;
     document.getElementById("show-exercise2").onclick = showexercise2;
     document.getElementById("button-compare-data").onclick = exerciseOne;

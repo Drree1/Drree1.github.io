@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"
+
+<head>
+    <title>Assignment 9</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+ <div class="flex-container">
+  <section class="col1of2">
+    <div id="quote-display">
+        <h2>Quotes</h2>
+        <script>
+            const quotes = [
+    "Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor.",
+    "The most important thing is to enjoy your life - to be happy - it's all that matters.",
+    "Beware the barrenness of a busy life",
+    "The good life is one inspired by love and guided by knowledge.",
+    "Live life to the fullest"
+];
+
+let currentQuoteIndex = 0;
+const quoteDisplay = document.getElementById("quote-display");
+
+function changeQuote() {
+    quoteDisplay.textContent = quotes[currentQuoteIndex];
+    currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+}
+
+// Display the first quote immediately
+changeQuote();
+
+// Change the quote every 2 seconds
+setInterval(changeQuote, 2000);
+        </script>
+    </div>
+  </section>
+  <section class="col2of2">
+    <h2>Rainbow</h2>
+    <button id="rainbow-button">Draw Rainbow</button>
+    <div id="rainbow"></div>
+    <p></p>
+    <p></p>
+    <div id="pot-of-gold" style="display: none;"> 🌈</div>
+  </section>
+ </div>
+
+</body>

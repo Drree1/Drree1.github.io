@@ -1,4 +1,5 @@
-/*const quotes =  [
+const getQuotes = () =>{
+const quotes =  [
     "Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor.",
     "The most important thing is to enjoy your life - to be happy - it's all that matters.",
     "Beware the barrenness of a busy life",
@@ -18,7 +19,8 @@ function changeQuote() {
 changeQuote();
 
 // Change the quote every 2 seconds
-setInterval(changeQuote, 2000);*/
+setInterval(changeQuote, 2000);
+}
 
 
 
@@ -51,5 +53,5 @@ setInterval(changeQuote, 2000);*/
 
         window.onload = () => {
             document.getElementById("rainbow-button").onclick = createRainbow;
-            
+            setInterval(getQuotes, 2000);
         }

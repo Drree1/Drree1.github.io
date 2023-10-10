@@ -53,5 +53,5 @@ setInterval(changeQuote, 2000);
 
         window.onload = () => {
             document.getElementById("rainbow-button").onclick = createRainbow;
-            setInterval(getQuotes, 2000);
+            getQuotes();
         }

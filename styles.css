@@ -19,7 +19,30 @@ body{
     flex: 1;
 }
 
+
+.project{
+    width: 22%;
+    padding: 20px 10px;
+    margin: 10px;
+    background: lightgray;
+    flex: 1;
+}
+
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
 .assignment img {
+    width:300px;
+    margin:10px;
+    border: 4px dashed blue;
+    display:block;
+    margin: auto;
+}
+
+.project img{
     width:300px;
     margin:10px;
     border: 4px dashed blue;
@@ -51,6 +74,16 @@ a:hover{
         flex: 1;
     }
     .assignments{
+        text-align: center;
+        display: inline-block;
+        flex: 1;
+    }
+
+    .project{
+        flex: 1;
+    }
+
+    .projects{
         text-align: center;
         display: inline-block;
         flex: 1;

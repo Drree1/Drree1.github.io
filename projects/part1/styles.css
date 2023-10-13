@@ -6,3 +6,89 @@ body{
 h1{
     text-align: center;
 }
+
+#main-header a{
+    text-decoration: none;
+    color: black;
+}
+
+#main-header a:hover{
+    color: blue;
+}
+
+#main-header li{
+    list-style-type: none;
+    flex: 1;
+    font-size: 20px;
+}
+
+#user-nav{
+    flex: 1;
+}
+
+#main-content{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+}
+
+#main-content3{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+#main-content4{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#button-back{
+    margin-top: 80px;
+}
+
+
+.col1of2{
+    padding-top: 100px;
+    padding-left: 500px;
+}
+
+.col2of2{
+    padding-top: 100px;
+    padding-right: 500px;
+}
+
+label,
+input {
+    display: inline-block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+
+.hide{
+    display: none;
+}
+
+@media only screen and (min-width: 768px){
+    .horizontal-nav ul, 
+    .flex-container{
+        display: flex;
+        flex: auto;
+    }
+
+    #main-nav ul{
+        justify-content: center;
+    }
+
+    .flex-container {
+        justify-content: space-between;
+    }
+
+}

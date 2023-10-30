@@ -51,6 +51,15 @@ h1{
 }
 /* END OF NAVBAR */
 
+li, 
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+}
 
 #image2{
     width: 500px;

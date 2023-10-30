@@ -1,5 +1,5 @@
-const getMovies = async () => {
-    const url = " https://portiaportia.github.io/json/movies.json";
+const getIndex = async () => {
+    const url = " https://raw.githubusercontent.com/Drree1/Drree1.github.io/main/json/index.json";
   
     try {
       const response = await fetch(url);
@@ -9,36 +9,26 @@ const getMovies = async () => {
     }
   };
   
-  const showMovies = async () => {
-    let movies = await getMovies();
-    let moviesSection = document.getElementById("movies-section");
+  const showIndex = async () => {
+    let index = await getIndex();
+    let indexSection = document.getElementById("index-section");
   
-    movies.forEach((movie) => {
-      moviesSection.append(getMovieItem(movie));
+    index.forEach((index) => {
+      indexSection.append(getIndexItem(index));
     });
   };
   
-  const getMovieItem = (movie) => {
+  const getIndexItem = (index) => {
     let section = document.createElement("section");
   
     let h3 = document.createElement("h3");
-    h3.innerText = movie.title;
+    h3.innerText = index.title;
     section.append(h3);
-  
-
     let ul = document.createElement("ul");
-    const image = document.createElement("img");
-
-    image.src = ` https://portiaportia.github.io/json/`+movie.img;
-    section.append(image);
     section.append(ul);
-    ul.append(image)
-    ul.append(h3)
-    ul.append(getLi(`Director: ${movie.director}`));
-    ul.append(getLi(`Actors: ${movie.actors}`));
-    ul.append(getLi(`Year Released: ${movie.year}`));
-    ul.append(getLi(`Genre: ${movie.genres}`));
-    ul.append(getLi(`Description: ${movie.description}`));
+    
+    ul.append(getLi(index.description));
+    ul.append(getLi(index.description2));
   
   
     return section;
@@ -51,4 +41,4 @@ const getMovies = async () => {
   };
   
   
-  window.onload = () => showMovies();
+  window.onload = () => showIndex();

@@ -23,15 +23,18 @@ const getIndex = async () => {
   
     let h3 = document.createElement("h3");
     h3.innerText = index.title;
-    section.append(h3);
     let ul = document.createElement("ul");
     section.append(ul);
-    
+    ul.append(getLi(index.title));
     ul.append(getLi(index.description));
     ul.append(getLi(index.description2));
+    ul.append(getLi(index.description3))
   
   
     return section;
+
+    let section2 = document.getElementById("index-section2");
+    
   };
   
   const getLi = (data) => {

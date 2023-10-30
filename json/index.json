@@ -2,7 +2,12 @@
     {
         "title": "Welcome",
         "description":"Welcome to Speedy Health, where your health is our number one priority.",
-        "description2":"We are here to help you get fast and easy healthcare at the tip of your fingertips. We'll have you fill out some general info once you reach the info page and we'll go from there."
+        "description2":"We are here to help you get fast and easy healthcare at the tip of your fingertips. We'll have you fill out some general info once you reach the info page and we'll go from there.",
+        "title2":"Our Services",
+        "description3":"Our services include fetching wait times, eta's, and providing you feedback on some of the best medical centers in your area. We are here to help you!",
+        "description4":"We are based in South Carolina and provide assistance throughout the midlands and the upstate. We can help you choose the right medical centers for you and your family",
+        "description5":"Our services are also delivered as outreach programs in the community.",
+        "description6":"We work diligently to provide fast and efficient service."
        
     }
 ]

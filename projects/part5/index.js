@@ -28,13 +28,15 @@ const getIndex = async () => {
     ul.append(getLi(index.title));
     ul.append(getLi(index.description));
     ul.append(getLi(index.description2));
-    ul.append(getLi(index.description3))
+    ul.append(getLi(index.title2));
+    ul.append(getLi(index.description3));
+    ul.append(getLi(index.description4));
+    ul.append(getLi(index.description5));
+    ul.append(getLi(index.description6));
   
   
     return section;
 
-    let section2 = document.getElementById("index-section2");
-    
   };
   
   const getLi = (data) => {
@@ -45,3 +47,4 @@ const getIndex = async () => {
   
   
   window.onload = () => showIndex();
+  

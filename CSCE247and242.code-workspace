@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"name": "CSCE247",
+			"path": ".."
+		},
+		{
+			"name": "design-patterns",
+			"path": "../../../design patterns/design-patterns"
+		},
+		{
+			"name": "Drree1.github.io",
+			"path": "."
+		},
+		{
+			"name": "classAug29",
+			"path": "../../../csce242/classAug29"
+		},
+		{
+			"name": "git-branching-abcs",
+			"path": "../../git-branching-abcs"
+		},
+		{
+			"name": "team-branching-247",
+			"path": "../../team-branching-247"
+		},
+		{
+			"name": "office-optimizer",
+			"path": "../../../../../eclipse-workspace/office-optimizer"
+		},
+		{
+			"name": "serverapp",
+			"path": "../../../../../eclipse-workspace/serverapp"
+		},
+		{
+			"name": "ServerSideJson",
+			"path": "../../../../../eclipse-workspace/ServerSideJson"
+		},
+		{
+			"name": "Serverget",
+			"path": "../../../../../eclipse-workspace/Serverget"
+		},
+		{
+			"name": "Assignment15",
+			"path": "../../../../../eclipse-workspace/Assignment15"
+		},
+		{
+			"name": "assignment16",
+			"path": "../../../../../eclipse-workspace/assignment16"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "mongooseserver",
+			"path": "../../../../../eclipse-workspace/mongooseserver"
+		},
+		{
+			"name": "Finalproject",
+			"path": "../../../../../eclipse-workspace/Finalproject"
+		}
+	],
+	"settings": {}
+}
